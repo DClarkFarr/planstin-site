@@ -179,7 +179,8 @@ function tcf_scripts_and_styles() {
 		wp_register_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array( 'jquery' ), '', true );
 		wp_enqueue_script( 'bootstrap' );
 
-		
+		wp_register_style( 'segoe-ui', get_template_directory_uri() . '/assets/css/segoe-ui.css', array(), '', 'all' );
+		wp_enqueue_style( 'segoe-ui' );
 
 
 	    // comment reply script for threaded comments
@@ -325,18 +326,16 @@ function tcf_excerpt_more($more) {
 }
 
 function mbe_wp_head(){
-	$top = 100;
-    echo '<style>'.PHP_EOL.
-    	'body{ padding-top: '.$top.'px !important; }'.PHP_EOL.
-    	'body.body-logged-in{ padding-top: '.($top+32).'px !important; }'.PHP_EOL.
-    	'body.body-logged-in .navbar-fixed-top{ top: 32px !important; }'.PHP_EOL;
+	$top = 30;
+    // echo '<style>'.PHP_EOL.
+    // 	'body{ padding-top: '.$top.'px !important; }'. PHP_EOL.
+    // 	'body.body-logged-in{ padding-top: '.($top+32).'px !important; }' . PHP_EOL;
+		
+    // echo '@media screen and (max-width: 782px){'.PHP_EOL.
+	//     	'body.body-logged-in{ padding-top: '.($top+46).'px !important; }'.PHP_EOL.
+	//     '}';
 
-    echo '@media screen and (max-width: 782px){'.PHP_EOL.
-	    	'body.body-logged-in{ padding-top: '.($top+46).'px !important; }'.PHP_EOL.
-		    'body.body-logged-in .navbar-fixed-top{ top: 46px !important; }'.PHP_EOL.
-	    '}';
-
-    echo '</style>'.PHP_EOL;
+    // echo '</style>'.PHP_EOL;
 }
 
 add_action('wp_head', 'mbe_wp_head');

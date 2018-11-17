@@ -6,13 +6,24 @@ Site Theme
 .btn-primary {
 	background-color: #D43024;
 }
-.text-primary {
+.text-primary,
+.btn-link.btn-link-primary,
+.nav-link.nav-link-primary
+{
 	color: #D43024;
 }
 
-.text-primary-dark {
+.text-primary-dark,
+.btn-link.btn-link-primary.active,
+.btn-link.btn-link-primary:hover,
+.btn-link.btn-link-primary:focus,
+.nav-link.nav-link-primary.active,
+.nav-link.nav-link-primary:hover,
+.nav-link.nav-link-primary:focus
+{
 	color: #AA1616;
 }
+
 .bg-primary-dark,
 .btn-primary.active,
 .btn-primary:hover,
@@ -66,7 +77,8 @@ Site Theme
 .bg-darkest {
 	background-color: #070707;
 }
-.text-darkest {
+.text-darkest,
+.nav-link {
 	color: #070707;
 }
 
@@ -93,14 +105,40 @@ Site Theme
 
 
 
-.bg-white {
+.bg-white, {
 	background-color: #FFFFFF;
 }
 .text-white,
 .btn-primary,
 .btn-primary.active,
 .btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:focus 
+{
 	color: #FFFFFF;
+}
+
+
+/**************
+Site Style
+**************/
+
+body {
+	font-family: 'segoe-ui';
+	color: #707070;
+}
+
+header {
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.nav-link {
+	text-transform: uppercase;
+	font-size: 1.1rem;
+}
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: .75rem;
+		padding-left: .75rem;
+	}
 }
 
