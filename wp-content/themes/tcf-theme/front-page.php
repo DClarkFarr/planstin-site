@@ -73,9 +73,28 @@
 		<div class="row align-items-center">
 			<div class="col-lg-5 mb-4 align-self-stretch">
 				<div class="bg-white h-100 rounded">
-
+					<div class="owl-carousel">
+						<div class="item">
+							<div class="media">
+								<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
+								<div class="media-body">
+									<h5 class="mt-0">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="media">
+								<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
+								<div class="media-body">
+									<h5 class="mt-0">Media heading</h5>
+									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+								</div>
+							</div>
+						</div>
+						
+					</div>
 				</div>
-				
 			</div>
 			<div class="col-lg-7">
 				<div class="row">
