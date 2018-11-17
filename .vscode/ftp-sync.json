@@ -1,0 +1,26 @@
+{
+    "remotePath": "./planstin-new/",
+    "host": "sftp.pressable.com",
+    "username": "y7ic0ny0vabuqw",
+    "password": "rxv67iiw3m7jqc",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "wp-includes",
+        "wp-admin"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
