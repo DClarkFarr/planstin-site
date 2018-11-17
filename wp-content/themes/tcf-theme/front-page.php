@@ -71,24 +71,31 @@
 			<p class="text-lighter">We have been lucky to work with some great clients and they feel the same about us!</p>
 		</div>
 		<div class="row align-items-center">
-			<div class="col-lg-5 mb-4 align-self-stretch">
+			<div class="col-lg-6 mb-4 align-self-stretch">
 				<div class="bg-white h-100 rounded">
-					<div class="owl-carousel">
+					<div class="owl-carousel p-4">
 						<div class="item">
 							<div class="media">
-								<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-								<div class="media-body">
+								<img class="mr-3 rounded-circle" src="//via.placeholder.com/64x64" alt="Generic placeholder image">
+								<div class="media-body text-lighter">
 									<h5 class="mt-0">Media heading</h5>
-									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+									<div>"They offer a wide variety of solutions. I know them personally and they are all great people to work with."</div>
+									<div class="media-footer text-lightest">
+										<small>Karen Hanner  |  Dixie Office Suites</small>
+									</div>
 								</div>
+								
 							</div>
 						</div>
 						<div class="item">
 							<div class="media">
-								<img class="mr-3" src=".../64x64" alt="Generic placeholder image">
-								<div class="media-body">
+								<img class="mr-3 rounded-circle" src="//via.placeholder.com/64x64" alt="Generic placeholder image">
+								<div class="media-body text-lighter">
 									<h5 class="mt-0">Media heading</h5>
-									Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+									<div>"They offer a wide variety of solutions. I know them personally and they are all great people to work with."</div>
+									<div class="media-footer text-lightest">
+										<small>Karen Hanner  |  Dixie Office Suites</small>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -96,7 +103,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-7">
+			<div class="col-lg-6">
 				<div class="row">
 					<div class="col-6 col-lg-4 mb-4">
 						<div class="icon rounded bg-white mx-auto"></div>
