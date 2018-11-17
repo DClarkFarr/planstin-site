@@ -1,3 +1,106 @@
 /**********
 Site Theme
 ***********/
+
+.bg-primary,
+.btn-primary {
+	background-color: #D43024;
+}
+.text-primary {
+	color: #D43024;
+}
+
+.text-primary-dark {
+	color: #AA1616;
+}
+.bg-primary-dark,
+.btn-primary.active,
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #AA1616;
+}
+
+.text-blue {
+	color: #1A47B0;
+}
+.bg-blue {
+	background-color: #1A47B0;
+}
+
+.text-secondary {
+	color: #3B4550;
+}
+.bg-secondary {
+	background-color: #3B4550;
+}
+
+
+.text-gray-light {
+	color: #BDC5CB;
+}
+.bg-gray-light {
+	background-color: #BDC5CB;
+}
+
+.text-gray {
+	color: #BDC5CB;
+}
+.bg-gray {
+	background-color: #BDC5CB;
+}
+
+.bg-dark {
+	background-color: #282C30;
+}
+.text-dark {
+	color: #282C30;
+}
+
+.bg-darker {
+	background-color: #1A1A1A;
+}
+.text-darker {
+	color: #1A1A1A;
+}
+
+.bg-darkest {
+	background-color: #070707;
+}
+.text-darkest {
+	color: #070707;
+}
+
+.bg-light {
+	background-color: #707070;
+}
+.text-light {
+	color: #707070;
+}
+
+.bg-lighter {
+	background-color: #848994;
+}
+.text-lighter {
+	color: #848994;
+}
+
+.bg-lightest {
+	background-color: #9FA4AF;
+}
+.text-lightest {
+	color: #9FA4AF;
+}
+
+
+
+.bg-white {
+	background-color: #FFFFFF;
+}
+.text-white,
+.btn-primary,
+.btn-primary.active,
+.btn-primary:hover,
+.btn-primary:focus {
+	color: #FFFFFF;
+}
+
