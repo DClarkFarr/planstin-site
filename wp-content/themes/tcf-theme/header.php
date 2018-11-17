@@ -8,7 +8,7 @@
 
 		<?php // mobile meta (hooray!) ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+		<link rel="shortcut icon" type="image/png" href="/wp-content/uploads/logo-icon.png"/>
 		<?php wp_head(); ?>
 
 
@@ -43,10 +43,10 @@
 					</ul>
 					<ul class="navbar-nav navbar-login">
 						<li class="nav-item">
-							<a class="nav-link nav-link-primary" href="#">Sign In</a>
+							<a class="nav-link nav-link-theme" href="#">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link nav-link-primary" href="#">Sign Up</a>
+							<a class="nav-link nav-link-theme" href="#">Sign Up</a>
 						</li>
 					</ul>
 				</div>

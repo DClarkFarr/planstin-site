@@ -2,32 +2,32 @@
 Site Theme
 ***********/
 
-.bg-primary,
-.btn-primary {
+.bg-theme,
+.btn-theme {
 	background-color: #D43024;
 }
-.text-primary,
-.btn-link.btn-link-primary,
-.nav-link.nav-link-primary
+.text-theme,
+.btn-link.btn-link-theme,
+.nav-link.nav-link-theme
 {
 	color: #D43024;
 }
 
-.text-primary-dark,
-.btn-link.btn-link-primary.active,
-.btn-link.btn-link-primary:hover,
-.btn-link.btn-link-primary:focus,
-.nav-link.nav-link-primary.active,
-.nav-link.nav-link-primary:hover,
-.nav-link.nav-link-primary:focus
+.text-theme-dark,
+.btn-link.btn-link-theme.active,
+.btn-link.btn-link-theme:hover,
+.btn-link.btn-link-theme:focus,
+.nav-link.nav-link-theme.active,
+.nav-link.nav-link-theme:hover,
+.nav-link.nav-link-theme:focus
 {
 	color: #AA1616;
 }
 
-.bg-primary-dark,
-.btn-primary.active,
-.btn-primary:hover,
-.btn-primary:focus {
+.bg-theme-dark,
+.btn-theme.active,
+.btn-theme:hover,
+.btn-theme:focus {
 	background-color: #AA1616;
 }
 
@@ -109,14 +109,19 @@ Site Theme
 	background-color: #FFFFFF;
 }
 .text-white,
-.btn-primary,
-.btn-primary.active,
-.btn-primary:hover,
-.btn-primary:focus 
+.btn-theme,
+.btn-theme.active,
+.btn-theme:hover,
+.btn-theme:focus 
 {
 	color: #FFFFFF;
 }
 
+.btn-rounded {
+	border-radius: 50px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
 
 /**************
 Site Style
@@ -142,3 +147,18 @@ header {
 	}
 }
 
+.testimonials .icon {
+	height: 100px;
+	width: 200px;
+	max-width: 100%;
+}
+
+.media-block + .media-block {
+	margin-top: 2rem;
+}
+.media-block .icon {
+	line-height: 1;
+}
+.media-block .text {
+	line-height: 1.3;
+}
