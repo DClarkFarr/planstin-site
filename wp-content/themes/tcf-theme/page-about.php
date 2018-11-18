@@ -65,27 +65,27 @@
     </div>
     <div class="container">
         <div class="card-deck card-deck-lg">
-            <div class="card text-center">
+            <div class="card mb-4 mb-lg-0 text-center">
                 <div class="card-body">
-                    <div class="mb-3 mx-3">
+                    <div class="mb-3 px-lg-3 mx-auto w-50 w-lg-100">
                         <img class="img-fluid rounded-circle" src="/wp-content/uploads/team-nathan.jpg" alt="Nathan Udy">
                     </div>
                     <h5 class="card-title text-blue f-08">Nathan Udy</h5>
                     <p class="card-text f-06 mb-5">Chief Executive Officer</p>
                 </div>
             </div>
-            <div class="card text-center">
+            <div class="card mb-4 mb-lg-0 text-center">
                 <div class="card-body">
-                    <div class="mb-3 mx-3">
+                    <div class="mb-3 px-lg-3 mx-auto w-50 w-lg-100">
                         <img class="img-fluid rounded-circle" src="/wp-content/uploads/team-tiffanie.jpg" alt="Nathan Udy">
                     </div>
                     <h5 class="card-title text-blue f-08">Tiffanie Moffitt</h5>
                     <p class="card-text f-06 mb-5">Payroll & Billing Specialist</p>
                 </div>
             </div>
-            <div class="card text-center">
+            <div class="card mb-4 mb-lg-0 text-center">
                 <div class="card-body">
-                    <div class="mb-3 mx-3">
+                    <div class="mb-3 px-lg-3 mx-auto w-50 w-lg-100">
                         <img class="img-fluid rounded-circle" src="/wp-content/uploads/team-timothy.jpg" alt="Nathan Udy">
                     </div>
                     <h5 class="card-title text-blue f-08">Timothy Hirsch</h5>
@@ -94,18 +94,18 @@
             </div>
         </div>
         <div class="card-deck card-deck-lg">
-            <div class="card text-center">
+            <div class="card mb-4 mb-lg-0 text-center">
                 <div class="card-body">
-                    <div class="mb-3 mx-3">
+                    <div class="mb-3 px-lg-3 mx-auto w-50 w-lg-100">
                         <img class="img-fluid rounded-circle" src="/wp-content/uploads/team-emily.jpg" alt="Nathan Udy">
                     </div>
                     <h5 class="card-title text-blue f-08">Emily Winger</h5>
                     <p class="card-text f-06 mb-5">Claims Manager</p>
                 </div>
             </div>
-            <div class="card text-center">
+            <div class="card mb-4 mb-lg-0 text-center">
                 <div class="card-body">
-                    <div class="mb-3 mx-3">
+                    <div class="mb-3 px-lg-3 mx-auto w-50 w-lg-100">
                         <img class="img-fluid rounded-circle" src="/wp-content/uploads/team-janna.jpg" alt="Nathan Udy">
                     </div>
                     <h5 class="card-title text-blue f-08">Janna Perkins </h5>

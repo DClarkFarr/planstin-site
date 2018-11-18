@@ -1,8 +1,8 @@
 <!-- Footer Wrap -->
 		<section class="section footer-cta bg-theme text-white">
 			<div class="container">
-				<div class="d-lg-flex align-items-center">
-					<div>
+				<div class="d-lg-flex text-center text-lg-left align-items-center">
+					<div class="mb-4 mb-lg-0">
 						<h3 class="font-weight-normal m-0">
 							ARE YOU READY TO GET STARTED?  REGISTER NOW!
 						</h3>
