@@ -345,10 +345,26 @@ function template_scripts_and_styles(){
 	//styles
 	wp_register_style( 'style', get_stylesheet_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
 	wp_enqueue_style( 'style' );
+    
+    wp_register_style( 'font', get_stylesheet_directory_uri() . '/assets/css/all.css', array(), '', 'all' );
+	wp_enqueue_style( 'font' );
+	
+    wp_register_style( 'icheck', get_stylesheet_directory_uri() . '/assets/skins/flat/_all.css', array(), '', 'all' );
+	wp_enqueue_style( 'icheck' );
+
+    wp_register_style( 'animate', get_stylesheet_directory_uri() . '/assets/css/animate.css', array(), '', 'all' );
+	wp_enqueue_style( 'animate' );
 	
 	//scripts
+    wp_register_script( 'jquery', get_stylesheet_directory_uri() . '/assets/js/jquery-3.3.1.min.js', array(), '', true );
+    wp_enqueue_script('jquery');
+
 	wp_register_script( 'main', get_stylesheet_directory_uri() . '/assets/js/main.js', array( 'bootstrap' ), '', true );
 	wp_enqueue_script( 'main' );
+
+	wp_register_script( 'icheck-js', get_stylesheet_directory_uri() . '/assets/js/icheck.js', array(), '', true );
+	wp_enqueue_script( 'icheck-js' );
+    
 }
 
 
